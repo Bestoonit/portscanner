@@ -4,6 +4,7 @@ import socket
 import time
 
 parser = argparse.ArgumentParser(description='Port scanner')
+#adding argument as parameter 
 parser.add_argument('-t', '--target', type=str, help='target ip')
 
 arge = parser.parse_args()
