@@ -1,9 +1,11 @@
-
+#some Module importation
 import argparse
 import socket
 import time
 
+#creating parser object
 parser = argparse.ArgumentParser(description='Port scanner')
+
 #adding argument as parameter 
 parser.add_argument('-t', '--target', type=str, help='target ip')
 
